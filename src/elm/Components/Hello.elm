@@ -9,4 +9,4 @@ hello : Int -> Html a
 hello model =
   div
     [ class "h1" ]
-    [ text ( "Hello, Elm" ++ ( "!" |> String.repeat model ) ) ]
+    [ text ( "Hello" ++ ( "!" |> String.repeat model ) ) ]
