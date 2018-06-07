@@ -45,7 +45,8 @@ view model =
           , button [ class "btn btn-primary btn-lg", onClick Increment ] [                  -- click handler
             span[ class "glyphicon glyphicon-star" ][]                                      -- glyphicon
             , span[][ text "FTW!" ]
-          ]
+          ],
+          div[ style [("margin-top", "10px")] ] [img [src "https://grass-graph.moshimo.works/images/ore-public.png"] []]
         ]
       ]
     ]
